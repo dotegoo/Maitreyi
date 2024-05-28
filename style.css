@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap');
+*{
+    border:0;
+    padding:0;
+    margin:0;
+    color:#2b1615;
+    font-family: "Dosis", sans-serif;
+}
+header{
+    background: url("maitreyi_HEADER.jpg");
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+#motivatie,
+#impact,#rezumat,#tehnicaNarativa,#caracteriz{
+    background: #fae4cd;
+    height: 100vh;
+}
+header h1{
+    font-size:90px;
+}
+header h2{
+    font-size:35px;
+}
+header div{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items:end;
+    justify-content: center;
+    
+    padding-right: 2vw;
+    
+}
+header nav{
+    padding-top:2vh;
+    display:flex;
+    align-items: start;
+    justify-content: end;
+    list-style: none;
+    padding-right: 0.5vw;
+    font-size: 28px;
+}
+header nav li{
+    padding-left:0.5vw;
+    padding-right: 0.5vw;
+}
+#motivatie h1,#impact h1,#rezumat h1, #tehnicaNarativa h1, #caracteriz h1{    
+    font-size:65px;
+    text-align: center;
+    padding-top:5vh;
+}
+a{
+    text-decoration: none;
+}
